@@ -1,0 +1,7 @@
+{
+  "name": "ngninx-config",
+  "version": "0.1.0",
+  "dependencies": {
+    "angular-ui-layout": "latest"
+  }
+}
