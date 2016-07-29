@@ -1,2 +1,2 @@
 # ngnix-config
-Configuration utility fo ngnix
+Configuration utility for ngnix
