@@ -2,6 +2,7 @@
   "name": "ngninx-config",
   "version": "0.1.0",
   "dependencies": {
-    "angular-ui-layout": "latest"
+    "angular-ui-layout": "latest",
+    "angular.treeview": "*"
   }
 }
