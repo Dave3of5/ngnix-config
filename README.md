@@ -1,6 +1,7 @@
 # ngnix-config
-Configuration utility for ngnix
+Configuration utility for ngnix.
 
+URL: https://dave3of5.github.io/ngnix-config/
 
 ## CLI Commands
 
