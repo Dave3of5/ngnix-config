@@ -6,13 +6,11 @@ import Header from './header';
 // Code-splitting is automated for `routes` directory
 import Home from '../routes/home';
 import Profile from '../routes/profile';
-import { createHashHistory } from 'history';
-
 
 const App = () => (
 	<div id="app">
 		<Header />
-		<Router history={ createHashHistory() }>
+		<Router>
 			<Home path="/" />
 			<Profile path="/profile/" user="me" />
 			<Profile path="/profile/:user" />
