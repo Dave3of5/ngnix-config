@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import NavBar from './NavBar.js';
 
@@ -9,7 +8,7 @@ function App() {
     <div className="App">
       
       <div className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>

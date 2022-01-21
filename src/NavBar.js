@@ -2,9 +2,10 @@
 import { Fragment } from 'react'
 import { Disclosure } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
+import logo from './logo.svg';
 
 const navigation = [
-  { name: 'Create New', href: '#', current: true },
+  { name: 'New', href: '#', current: false },
   { name: 'Load', href: '#', current: false }
 ]
 
@@ -31,6 +32,13 @@ export default function NavBar() {
                 </Disclosure.Button>
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+                <div className="flex-shrink-0 flex items-center">
+                  <img
+                    className="block h-8 w-auto"
+                    src={logo}
+                    alt="Logo"
+                  />
+                </div>
                 <div>
                     <span className="h-8 w-auto text-white align-sub font-bold">Nginx Config</span>
                 </div>
