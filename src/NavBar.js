@@ -39,8 +39,8 @@ export default function NavBar() {
                     alt="Logo"
                   />
                 </div>
-                <div>
-                    <span className="h-8 w-auto text-white align-sub font-bold">Nginx Config</span>
+                <div className="flex-shrink-0 flex items-center">
+                    <span className="text-white font-bold w-auto">Nginx Config</span>
                 </div>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
